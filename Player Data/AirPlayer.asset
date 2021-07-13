@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063c9f8ee72044a6beeba255a395cee3, type: 3}
+  m_Name: AirPlayer
+  m_EditorClassIdentifier: 
+  speed: 15
+  attackCooldown: 3
+  defenceCooldown: 10000
+  attackPrefab: {fileID: 7095555315963783930, guid: 0737ba06d6d5abf45bb5e1f08658cc3b, type: 3}
+  defencePrefab: {fileID: 7095555315963783930, guid: 0737ba06d6d5abf45bb5e1f08658cc3b, type: 3}
+  MixAttackPrefab: {fileID: 0}
+  VoidKillParticlePrefab: {fileID: 6051056335761714045, guid: b81b4974ef4b21549a77fd0752cdc9b1, type: 3}
+  attackDisableParticlePrefab: {fileID: 6054114055541697783, guid: a8b4fc54e4af16b469d4da437c7cf551, type: 3}

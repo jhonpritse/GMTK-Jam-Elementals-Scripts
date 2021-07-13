@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063c9f8ee72044a6beeba255a395cee3, type: 3}
+  m_Name: FirePlayer
+  m_EditorClassIdentifier: 
+  speed: 10
+  attackCooldown: 0.25
+  defenceCooldown: 10000
+  attackPrefab: {fileID: 2002265097334172469, guid: 5a44669f87b98b04dadc8f9ff1a5cdb8, type: 3}
+  defencePrefab: {fileID: 2002265097334172469, guid: 5a44669f87b98b04dadc8f9ff1a5cdb8, type: 3}
+  MixAttackPrefab: {fileID: 5704575794219280330, guid: a53162d903cf0454997628f441df1c5f, type: 3}
+  VoidKillParticlePrefab: {fileID: 6051056335761714045, guid: b81b4974ef4b21549a77fd0752cdc9b1, type: 3}
+  attackDisableParticlePrefab: {fileID: 7865450468671247229, guid: 96d0789ad7177424eb0b06105903aada, type: 3}
